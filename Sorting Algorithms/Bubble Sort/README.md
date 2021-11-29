@@ -3,12 +3,12 @@
 #### 10  987  78  8  21  5  1
 
 ### Bubble Sort Algorithm ->
-
-i = 0;
+```
+i = 0
 j = i + 1; (j = 1)
 
-array[i] ==> 10;
-array[j] ==> 987;
+array[i] ==> 10
+array[j] ==> 987
 
 if array[i] > array[j]:
     swap(array[j], array[i]);
@@ -67,3 +67,4 @@ Array => 1  78  987  10  21  8  5;
 .
 
 Sorted Array --> 1  5  8  10  21  78  987
+```
