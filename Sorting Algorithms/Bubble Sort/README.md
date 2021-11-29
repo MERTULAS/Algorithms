@@ -1,8 +1,9 @@
+## Bubble Sort Algorithm ->
+
 ### The array ->
 
 #### 10  987  78  8  21  5  1
 
-### Bubble Sort Algorithm ->
 ```
 i = 0
 j = i + 1; (j = 1)
