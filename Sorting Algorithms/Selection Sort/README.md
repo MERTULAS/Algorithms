@@ -162,7 +162,7 @@ else:
 (min_val_index = 5);
 j++;
 
-// finish first "j" count
+// finish second "j" count
 
 swap(array[min_val_index], array[i]);
 Array => 1  5  78  8  21  987  10;
