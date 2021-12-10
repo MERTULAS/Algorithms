@@ -15,8 +15,6 @@ int main() {
     assign(array, length);
     writeArray(array, length);
 
-    printf("Sorted Array: \n");
-
     for (short i = 1; i < length; i++) {
         key = array[i];
         j = i - 1;
@@ -27,6 +25,7 @@ int main() {
         array[j + 1] = key;
     }
 
+    printf("Sorted Array: \n");
     writeArray(array, length);
 }
 
@@ -39,7 +38,7 @@ void assign(int *arr, short length) {
 void writeArray(int *arr, short length) {
     printf("\n");
     for (short i = 0; i < length; i++) {
-        printf("%d ", arr[i]);
+        printf(" %3d", arr[i]);
     }
     printf("\n");
 }
