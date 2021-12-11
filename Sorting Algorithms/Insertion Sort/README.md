@@ -1,8 +1,13 @@
 ## Insertion Sort Algorithm ->
 (n - 1) + (n - 2) + (n - 3) + ... + 2 + 1 = (n - 1) * (n) / 2 = 0.5 n^2 - 0.5n
 
---> Worst Case: O(n^2) Time Complexity
---> Best Case: O(n) Time Complexity
+---> Best Case: O(n) Time Complexity
+---> Worst Case: O(n^2) Time Complexity
+---> Average Case: O(n^2) Time Complexity
+
+---> O(1) Space Complexity
+---> In-place
+---> Stable
 
 ### The array ->
 
